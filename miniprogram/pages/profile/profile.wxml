@@ -1,0 +1,7 @@
+<view class='profile'>
+  <view class="profile-img">
+    <open-data type="userAvatarUrl"></open-data>
+  </view>
+  <open-data type="userNickName" class="profile-name"></open-data>
+</view>
+<van-field value="{{ content }}" placeholder="写一些评价吧" bind:change="onContentChange" />
